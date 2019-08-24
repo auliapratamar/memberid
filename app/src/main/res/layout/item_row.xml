@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_color"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:id="@+id/lv_cardreward"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:id="@+id/bt_vouchers"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"
+        android:text="Vouchers"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+        <Button
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"
+            android:id="@+id/bt_poin"
+            android:textColorHint="@color/black_dividers"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black_text"
+        android:id="@+id/tv_nominalreward"
+        android:textSize="22dp"
+        android:textAlignment="textStart"
+        android:text="nominal"
+        android:layout_below="@+id/lv_cardreward"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    
+
+</RelativeLayout>
